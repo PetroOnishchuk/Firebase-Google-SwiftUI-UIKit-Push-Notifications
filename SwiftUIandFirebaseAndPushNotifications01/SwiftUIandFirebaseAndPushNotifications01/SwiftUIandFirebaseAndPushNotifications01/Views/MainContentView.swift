@@ -27,6 +27,9 @@ struct MainContentView: View {
                     Text("Message List Section")
                 }
             }
+            .onAppear {
+                myAppVM.setupNotifications()
+            }
         }
         .padding()
     }

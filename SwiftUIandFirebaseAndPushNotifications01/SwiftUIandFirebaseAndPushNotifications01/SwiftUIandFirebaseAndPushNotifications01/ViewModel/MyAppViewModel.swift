@@ -29,13 +29,15 @@ class MyAppViewModel: ObservableObject {
         
         let firebaseNotName = Notification.Name(NotificationNameValue.firebasePushNotification.rawValue)
         
-        NotificationCenter.default.addObserver(forName: firebaseNotName, object: nil, queue: .main) { notifications in
+        NotificationCenter.default.addObserver(forName: firebaseNotName, object: nil, queue: .main) { notification in
             
-            // convert
+            self.convertNotificationsMessage(notificationObject: notification.object)
+            
         }
     }
     
     //MARK: Convert notification message for display in App
+    
     func convertNotificationsMessage(notificationObject: Any?) {
         guard let wholeMessage = notificationObject as? NSDictionary else {
             print("Error with convert to NSDictionary")
@@ -54,6 +56,13 @@ class MyAppViewModel: ObservableObject {
         let body = alertMessage["body"] ?? "No body value"
         
         let newMessage = Message(id: UUID(), title: title, body: body, messagesDate: Date())
+        print("NEW MEssage")
+        
+        DispatchQueue.main.async {
+            [weak self] in
+            self?.allMessages.append(newMessage)
+        }
+        
         
     }
 }
