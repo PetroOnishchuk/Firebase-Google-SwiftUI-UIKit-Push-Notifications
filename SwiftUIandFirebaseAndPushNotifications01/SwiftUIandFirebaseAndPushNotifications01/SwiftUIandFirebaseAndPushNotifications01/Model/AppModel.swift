@@ -13,7 +13,7 @@ struct Message: Identifiable, Hashable {
     var id: UUID
     var title: String
     var body: String
-    var messagesDate: Data
+    var messagesDate: Date
 }
 
 

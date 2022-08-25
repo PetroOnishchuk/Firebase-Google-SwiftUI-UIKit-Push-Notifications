@@ -9,6 +9,12 @@ import SwiftUI
 
 @main
 struct SwiftUIandFirebaseAndPushNotifications01App: App {
+    
+    //MARK: AppDelegate
+    // work with AppDelegate.swift
+    @UIApplicationDelegateAdaptor(AppDelegate.self)
+    var appDelegate
+    
     var body: some Scene {
         WindowGroup {
             MainContentView()
