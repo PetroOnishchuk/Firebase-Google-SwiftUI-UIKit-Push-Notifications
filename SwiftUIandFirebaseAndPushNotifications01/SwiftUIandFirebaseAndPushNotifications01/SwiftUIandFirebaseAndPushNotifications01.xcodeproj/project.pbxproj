@@ -17,6 +17,7 @@
 		9846CCF628B794C300857C0C /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846CCF528B794C300857C0C /* AppModel.swift */; };
 		9846CCF928B7977200857C0C /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 9846CCF828B7977200857C0C /* FirebaseAnalytics */; };
 		9846CCFB28B7977200857C0C /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 9846CCFA28B7977200857C0C /* FirebaseMessaging */; };
+		9846CCFF28B7995800857C0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846CCFE28B7995800857C0C /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		9846CCF528B794C300857C0C /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		9846CCFC28B7981000857C0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9846CCFD28B7981D00857C0C /* SwiftUIandFirebaseAndPushNotifications01.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIandFirebaseAndPushNotifications01.entitlements; sourceTree = "<group>"; };
+		9846CCFE28B7995800857C0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 		9846CCF428B7945A00857C0C /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
+				9846CCFE28B7995800857C0C /* AppDelegate.swift */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9846CCFF28B7995800857C0C /* AppDelegate.swift in Sources */,
 				9846CCCA28B793F300857C0C /* ContentView.swift in Sources */,
 				9846CCF628B794C300857C0C /* AppModel.swift in Sources */,
 				9846CCC828B793F300857C0C /* SwiftUIandFirebaseAndPushNotifications01App.swift in Sources */,
