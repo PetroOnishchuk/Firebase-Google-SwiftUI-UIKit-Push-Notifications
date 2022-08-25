@@ -95,7 +95,10 @@
 			isa = PBXGroup;
 			children = (
 				9846CCC728B793F300857C0C /* SwiftUIandFirebaseAndPushNotifications01App.swift */,
-				9846CCC928B793F300857C0C /* ContentView.swift */,
+				9846CCF428B7945A00857C0C /* AppDelegate */,
+				9846CCF328B7945200857C0C /* Views */,
+				9846CCF228B7942900857C0C /* ViewModel */,
+				9846CCF128B7942000857C0C /* Model */,
 				9846CCCB28B793F500857C0C /* Assets.xcassets */,
 				9846CCCD28B793F500857C0C /* Preview Content */,
 			);
@@ -125,6 +128,35 @@
 				9846CCE428B793F500857C0C /* SwiftUIandFirebaseAndPushNotifications01UITestsLaunchTests.swift */,
 			);
 			path = SwiftUIandFirebaseAndPushNotifications01UITests;
+			sourceTree = "<group>";
+		};
+		9846CCF128B7942000857C0C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9846CCF228B7942900857C0C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9846CCF328B7945200857C0C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9846CCC928B793F300857C0C /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9846CCF428B7945A00857C0C /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

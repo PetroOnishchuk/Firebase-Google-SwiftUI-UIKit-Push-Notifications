@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUIandFirebaseAndPushNotifications01App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainContentView()
         }
     }
 }

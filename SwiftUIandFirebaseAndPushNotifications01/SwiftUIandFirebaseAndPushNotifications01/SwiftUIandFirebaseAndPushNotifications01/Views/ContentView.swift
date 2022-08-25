@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  MainContentView.swift
 //  SwiftUIandFirebaseAndPushNotifications01
 //
 //  Created by Petro Onishchuk on 8/25/22.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MainContentView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -19,8 +19,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct MainContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MainContentView()
     }
 }
