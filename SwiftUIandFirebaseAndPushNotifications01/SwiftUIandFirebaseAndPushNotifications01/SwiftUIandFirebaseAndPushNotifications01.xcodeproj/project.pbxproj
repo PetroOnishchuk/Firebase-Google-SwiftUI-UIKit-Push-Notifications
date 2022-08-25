@@ -14,6 +14,7 @@
 		9846CCD928B793F500857C0C /* SwiftUIandFirebaseAndPushNotifications01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846CCD828B793F500857C0C /* SwiftUIandFirebaseAndPushNotifications01Tests.swift */; };
 		9846CCE328B793F500857C0C /* SwiftUIandFirebaseAndPushNotifications01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846CCE228B793F500857C0C /* SwiftUIandFirebaseAndPushNotifications01UITests.swift */; };
 		9846CCE528B793F500857C0C /* SwiftUIandFirebaseAndPushNotifications01UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846CCE428B793F500857C0C /* SwiftUIandFirebaseAndPushNotifications01UITestsLaunchTests.swift */; };
+		9846CCF628B794C300857C0C /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846CCF528B794C300857C0C /* AppModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		9846CCDE28B793F500857C0C /* SwiftUIandFirebaseAndPushNotifications01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIandFirebaseAndPushNotifications01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9846CCE228B793F500857C0C /* SwiftUIandFirebaseAndPushNotifications01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIandFirebaseAndPushNotifications01UITests.swift; sourceTree = "<group>"; };
 		9846CCE428B793F500857C0C /* SwiftUIandFirebaseAndPushNotifications01UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIandFirebaseAndPushNotifications01UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9846CCF528B794C300857C0C /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 		9846CCF128B7942000857C0C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9846CCF528B794C300857C0C /* AppModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9846CCCA28B793F300857C0C /* ContentView.swift in Sources */,
+				9846CCF628B794C300857C0C /* AppModel.swift in Sources */,
 				9846CCC828B793F300857C0C /* SwiftUIandFirebaseAndPushNotifications01App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
