@@ -10,6 +10,8 @@ import SwiftUI
 @main
 struct SwiftUIandFirebaseAndPushNotifications01App: App {
     
+    @StateObject var myAppVM = MyAppViewModel()
+    
     //MARK: AppDelegate
     // work with AppDelegate.swift
     @UIApplicationDelegateAdaptor(AppDelegate.self)
@@ -18,6 +20,7 @@ struct SwiftUIandFirebaseAndPushNotifications01App: App {
     var body: some Scene {
         WindowGroup {
             MainContentView()
+                .environmentObject(myAppVM)
         }
     }
 }
