@@ -1,13 +1,13 @@
 //
-//  SwiftUIandFirabaseAndPushNotifications01UITestsLaunchTests.swift
-//  SwiftUIandFirabaseAndPushNotifications01UITests
+//  SwiftUIandFirebaseAndPushNotifications01UITestsLaunchTests.swift
+//  SwiftUIandFirebaseAndPushNotifications01UITests
 //
 //  Created by Petro Onishchuk on 8/25/22.
 //
 
 import XCTest
 
-final class SwiftUIandFirabaseAndPushNotifications01UITestsLaunchTests: XCTestCase {
+final class SwiftUIandFirebaseAndPushNotifications01UITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

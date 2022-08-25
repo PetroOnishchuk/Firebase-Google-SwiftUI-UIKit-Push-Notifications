@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  SwiftUIandFirabaseAndPushNotifications01
+//  SwiftUIandFirebaseAndPushNotifications01
 //
 //  Created by Petro Onishchuk on 8/25/22.
 //

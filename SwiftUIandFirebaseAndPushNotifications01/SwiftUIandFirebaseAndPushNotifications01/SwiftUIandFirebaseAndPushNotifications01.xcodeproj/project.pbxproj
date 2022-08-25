@@ -7,61 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9846CC8C28B7923F00857C0C /* SwiftUIandFirabaseAndPushNotifications01App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846CC8B28B7923F00857C0C /* SwiftUIandFirabaseAndPushNotifications01App.swift */; };
-		9846CC8E28B7923F00857C0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846CC8D28B7923F00857C0C /* ContentView.swift */; };
-		9846CC9028B7924100857C0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9846CC8F28B7924100857C0C /* Assets.xcassets */; };
-		9846CC9328B7924100857C0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9846CC9228B7924100857C0C /* Preview Assets.xcassets */; };
-		9846CC9D28B7924200857C0C /* SwiftUIandFirabaseAndPushNotifications01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846CC9C28B7924200857C0C /* SwiftUIandFirabaseAndPushNotifications01Tests.swift */; };
-		9846CCA728B7924200857C0C /* SwiftUIandFirabaseAndPushNotifications01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846CCA628B7924200857C0C /* SwiftUIandFirabaseAndPushNotifications01UITests.swift */; };
-		9846CCA928B7924200857C0C /* SwiftUIandFirabaseAndPushNotifications01UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846CCA828B7924200857C0C /* SwiftUIandFirabaseAndPushNotifications01UITestsLaunchTests.swift */; };
+		9846CCC828B793F300857C0C /* SwiftUIandFirebaseAndPushNotifications01App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846CCC728B793F300857C0C /* SwiftUIandFirebaseAndPushNotifications01App.swift */; };
+		9846CCCA28B793F300857C0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846CCC928B793F300857C0C /* ContentView.swift */; };
+		9846CCCC28B793F500857C0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9846CCCB28B793F500857C0C /* Assets.xcassets */; };
+		9846CCCF28B793F500857C0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9846CCCE28B793F500857C0C /* Preview Assets.xcassets */; };
+		9846CCD928B793F500857C0C /* SwiftUIandFirebaseAndPushNotifications01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846CCD828B793F500857C0C /* SwiftUIandFirebaseAndPushNotifications01Tests.swift */; };
+		9846CCE328B793F500857C0C /* SwiftUIandFirebaseAndPushNotifications01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846CCE228B793F500857C0C /* SwiftUIandFirebaseAndPushNotifications01UITests.swift */; };
+		9846CCE528B793F500857C0C /* SwiftUIandFirebaseAndPushNotifications01UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846CCE428B793F500857C0C /* SwiftUIandFirebaseAndPushNotifications01UITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9846CC9928B7924200857C0C /* PBXContainerItemProxy */ = {
+		9846CCD528B793F500857C0C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9846CC8028B7923F00857C0C /* Project object */;
+			containerPortal = 9846CCBC28B793F300857C0C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9846CC8728B7923F00857C0C;
-			remoteInfo = SwiftUIandFirabaseAndPushNotifications01;
+			remoteGlobalIDString = 9846CCC328B793F300857C0C;
+			remoteInfo = SwiftUIandFirebaseAndPushNotifications01;
 		};
-		9846CCA328B7924200857C0C /* PBXContainerItemProxy */ = {
+		9846CCDF28B793F500857C0C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9846CC8028B7923F00857C0C /* Project object */;
+			containerPortal = 9846CCBC28B793F300857C0C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9846CC8728B7923F00857C0C;
-			remoteInfo = SwiftUIandFirabaseAndPushNotifications01;
+			remoteGlobalIDString = 9846CCC328B793F300857C0C;
+			remoteInfo = SwiftUIandFirebaseAndPushNotifications01;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9846CC8828B7923F00857C0C /* SwiftUIandFirabaseAndPushNotifications01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIandFirabaseAndPushNotifications01.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9846CC8B28B7923F00857C0C /* SwiftUIandFirabaseAndPushNotifications01App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIandFirabaseAndPushNotifications01App.swift; sourceTree = "<group>"; };
-		9846CC8D28B7923F00857C0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		9846CC8F28B7924100857C0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9846CC9228B7924100857C0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9846CC9828B7924200857C0C /* SwiftUIandFirabaseAndPushNotifications01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIandFirabaseAndPushNotifications01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9846CC9C28B7924200857C0C /* SwiftUIandFirabaseAndPushNotifications01Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIandFirabaseAndPushNotifications01Tests.swift; sourceTree = "<group>"; };
-		9846CCA228B7924200857C0C /* SwiftUIandFirabaseAndPushNotifications01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIandFirabaseAndPushNotifications01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9846CCA628B7924200857C0C /* SwiftUIandFirabaseAndPushNotifications01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIandFirabaseAndPushNotifications01UITests.swift; sourceTree = "<group>"; };
-		9846CCA828B7924200857C0C /* SwiftUIandFirabaseAndPushNotifications01UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIandFirabaseAndPushNotifications01UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9846CCC428B793F300857C0C /* SwiftUIandFirebaseAndPushNotifications01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIandFirebaseAndPushNotifications01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9846CCC728B793F300857C0C /* SwiftUIandFirebaseAndPushNotifications01App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIandFirebaseAndPushNotifications01App.swift; sourceTree = "<group>"; };
+		9846CCC928B793F300857C0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9846CCCB28B793F500857C0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9846CCCE28B793F500857C0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9846CCD428B793F500857C0C /* SwiftUIandFirebaseAndPushNotifications01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIandFirebaseAndPushNotifications01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9846CCD828B793F500857C0C /* SwiftUIandFirebaseAndPushNotifications01Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIandFirebaseAndPushNotifications01Tests.swift; sourceTree = "<group>"; };
+		9846CCDE28B793F500857C0C /* SwiftUIandFirebaseAndPushNotifications01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIandFirebaseAndPushNotifications01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9846CCE228B793F500857C0C /* SwiftUIandFirebaseAndPushNotifications01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIandFirebaseAndPushNotifications01UITests.swift; sourceTree = "<group>"; };
+		9846CCE428B793F500857C0C /* SwiftUIandFirebaseAndPushNotifications01UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIandFirebaseAndPushNotifications01UITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9846CC8528B7923F00857C0C /* Frameworks */ = {
+		9846CCC128B793F300857C0C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9846CC9528B7924200857C0C /* Frameworks */ = {
+		9846CCD128B793F500857C0C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9846CC9F28B7924200857C0C /* Frameworks */ = {
+		9846CCDB28B793F500857C0C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -71,142 +71,142 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9846CC7F28B7923F00857C0C = {
+		9846CCBB28B793F300857C0C = {
 			isa = PBXGroup;
 			children = (
-				9846CC8A28B7923F00857C0C /* SwiftUIandFirabaseAndPushNotifications01 */,
-				9846CC9B28B7924200857C0C /* SwiftUIandFirabaseAndPushNotifications01Tests */,
-				9846CCA528B7924200857C0C /* SwiftUIandFirabaseAndPushNotifications01UITests */,
-				9846CC8928B7923F00857C0C /* Products */,
+				9846CCC628B793F300857C0C /* SwiftUIandFirebaseAndPushNotifications01 */,
+				9846CCD728B793F500857C0C /* SwiftUIandFirebaseAndPushNotifications01Tests */,
+				9846CCE128B793F500857C0C /* SwiftUIandFirebaseAndPushNotifications01UITests */,
+				9846CCC528B793F300857C0C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9846CC8928B7923F00857C0C /* Products */ = {
+		9846CCC528B793F300857C0C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9846CC8828B7923F00857C0C /* SwiftUIandFirabaseAndPushNotifications01.app */,
-				9846CC9828B7924200857C0C /* SwiftUIandFirabaseAndPushNotifications01Tests.xctest */,
-				9846CCA228B7924200857C0C /* SwiftUIandFirabaseAndPushNotifications01UITests.xctest */,
+				9846CCC428B793F300857C0C /* SwiftUIandFirebaseAndPushNotifications01.app */,
+				9846CCD428B793F500857C0C /* SwiftUIandFirebaseAndPushNotifications01Tests.xctest */,
+				9846CCDE28B793F500857C0C /* SwiftUIandFirebaseAndPushNotifications01UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9846CC8A28B7923F00857C0C /* SwiftUIandFirabaseAndPushNotifications01 */ = {
+		9846CCC628B793F300857C0C /* SwiftUIandFirebaseAndPushNotifications01 */ = {
 			isa = PBXGroup;
 			children = (
-				9846CC8B28B7923F00857C0C /* SwiftUIandFirabaseAndPushNotifications01App.swift */,
-				9846CC8D28B7923F00857C0C /* ContentView.swift */,
-				9846CC8F28B7924100857C0C /* Assets.xcassets */,
-				9846CC9128B7924100857C0C /* Preview Content */,
+				9846CCC728B793F300857C0C /* SwiftUIandFirebaseAndPushNotifications01App.swift */,
+				9846CCC928B793F300857C0C /* ContentView.swift */,
+				9846CCCB28B793F500857C0C /* Assets.xcassets */,
+				9846CCCD28B793F500857C0C /* Preview Content */,
 			);
-			path = SwiftUIandFirabaseAndPushNotifications01;
+			path = SwiftUIandFirebaseAndPushNotifications01;
 			sourceTree = "<group>";
 		};
-		9846CC9128B7924100857C0C /* Preview Content */ = {
+		9846CCCD28B793F500857C0C /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				9846CC9228B7924100857C0C /* Preview Assets.xcassets */,
+				9846CCCE28B793F500857C0C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		9846CC9B28B7924200857C0C /* SwiftUIandFirabaseAndPushNotifications01Tests */ = {
+		9846CCD728B793F500857C0C /* SwiftUIandFirebaseAndPushNotifications01Tests */ = {
 			isa = PBXGroup;
 			children = (
-				9846CC9C28B7924200857C0C /* SwiftUIandFirabaseAndPushNotifications01Tests.swift */,
+				9846CCD828B793F500857C0C /* SwiftUIandFirebaseAndPushNotifications01Tests.swift */,
 			);
-			path = SwiftUIandFirabaseAndPushNotifications01Tests;
+			path = SwiftUIandFirebaseAndPushNotifications01Tests;
 			sourceTree = "<group>";
 		};
-		9846CCA528B7924200857C0C /* SwiftUIandFirabaseAndPushNotifications01UITests */ = {
+		9846CCE128B793F500857C0C /* SwiftUIandFirebaseAndPushNotifications01UITests */ = {
 			isa = PBXGroup;
 			children = (
-				9846CCA628B7924200857C0C /* SwiftUIandFirabaseAndPushNotifications01UITests.swift */,
-				9846CCA828B7924200857C0C /* SwiftUIandFirabaseAndPushNotifications01UITestsLaunchTests.swift */,
+				9846CCE228B793F500857C0C /* SwiftUIandFirebaseAndPushNotifications01UITests.swift */,
+				9846CCE428B793F500857C0C /* SwiftUIandFirebaseAndPushNotifications01UITestsLaunchTests.swift */,
 			);
-			path = SwiftUIandFirabaseAndPushNotifications01UITests;
+			path = SwiftUIandFirebaseAndPushNotifications01UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9846CC8728B7923F00857C0C /* SwiftUIandFirabaseAndPushNotifications01 */ = {
+		9846CCC328B793F300857C0C /* SwiftUIandFirebaseAndPushNotifications01 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9846CCAC28B7924200857C0C /* Build configuration list for PBXNativeTarget "SwiftUIandFirabaseAndPushNotifications01" */;
+			buildConfigurationList = 9846CCE828B793F500857C0C /* Build configuration list for PBXNativeTarget "SwiftUIandFirebaseAndPushNotifications01" */;
 			buildPhases = (
-				9846CC8428B7923F00857C0C /* Sources */,
-				9846CC8528B7923F00857C0C /* Frameworks */,
-				9846CC8628B7923F00857C0C /* Resources */,
+				9846CCC028B793F300857C0C /* Sources */,
+				9846CCC128B793F300857C0C /* Frameworks */,
+				9846CCC228B793F300857C0C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SwiftUIandFirabaseAndPushNotifications01;
-			productName = SwiftUIandFirabaseAndPushNotifications01;
-			productReference = 9846CC8828B7923F00857C0C /* SwiftUIandFirabaseAndPushNotifications01.app */;
+			name = SwiftUIandFirebaseAndPushNotifications01;
+			productName = SwiftUIandFirebaseAndPushNotifications01;
+			productReference = 9846CCC428B793F300857C0C /* SwiftUIandFirebaseAndPushNotifications01.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9846CC9728B7924200857C0C /* SwiftUIandFirabaseAndPushNotifications01Tests */ = {
+		9846CCD328B793F500857C0C /* SwiftUIandFirebaseAndPushNotifications01Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9846CCAF28B7924200857C0C /* Build configuration list for PBXNativeTarget "SwiftUIandFirabaseAndPushNotifications01Tests" */;
+			buildConfigurationList = 9846CCEB28B793F500857C0C /* Build configuration list for PBXNativeTarget "SwiftUIandFirebaseAndPushNotifications01Tests" */;
 			buildPhases = (
-				9846CC9428B7924200857C0C /* Sources */,
-				9846CC9528B7924200857C0C /* Frameworks */,
-				9846CC9628B7924200857C0C /* Resources */,
+				9846CCD028B793F500857C0C /* Sources */,
+				9846CCD128B793F500857C0C /* Frameworks */,
+				9846CCD228B793F500857C0C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9846CC9A28B7924200857C0C /* PBXTargetDependency */,
+				9846CCD628B793F500857C0C /* PBXTargetDependency */,
 			);
-			name = SwiftUIandFirabaseAndPushNotifications01Tests;
-			productName = SwiftUIandFirabaseAndPushNotifications01Tests;
-			productReference = 9846CC9828B7924200857C0C /* SwiftUIandFirabaseAndPushNotifications01Tests.xctest */;
+			name = SwiftUIandFirebaseAndPushNotifications01Tests;
+			productName = SwiftUIandFirebaseAndPushNotifications01Tests;
+			productReference = 9846CCD428B793F500857C0C /* SwiftUIandFirebaseAndPushNotifications01Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9846CCA128B7924200857C0C /* SwiftUIandFirabaseAndPushNotifications01UITests */ = {
+		9846CCDD28B793F500857C0C /* SwiftUIandFirebaseAndPushNotifications01UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9846CCB228B7924200857C0C /* Build configuration list for PBXNativeTarget "SwiftUIandFirabaseAndPushNotifications01UITests" */;
+			buildConfigurationList = 9846CCEE28B793F500857C0C /* Build configuration list for PBXNativeTarget "SwiftUIandFirebaseAndPushNotifications01UITests" */;
 			buildPhases = (
-				9846CC9E28B7924200857C0C /* Sources */,
-				9846CC9F28B7924200857C0C /* Frameworks */,
-				9846CCA028B7924200857C0C /* Resources */,
+				9846CCDA28B793F500857C0C /* Sources */,
+				9846CCDB28B793F500857C0C /* Frameworks */,
+				9846CCDC28B793F500857C0C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9846CCA428B7924200857C0C /* PBXTargetDependency */,
+				9846CCE028B793F500857C0C /* PBXTargetDependency */,
 			);
-			name = SwiftUIandFirabaseAndPushNotifications01UITests;
-			productName = SwiftUIandFirabaseAndPushNotifications01UITests;
-			productReference = 9846CCA228B7924200857C0C /* SwiftUIandFirabaseAndPushNotifications01UITests.xctest */;
+			name = SwiftUIandFirebaseAndPushNotifications01UITests;
+			productName = SwiftUIandFirebaseAndPushNotifications01UITests;
+			productReference = 9846CCDE28B793F500857C0C /* SwiftUIandFirebaseAndPushNotifications01UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9846CC8028B7923F00857C0C /* Project object */ = {
+		9846CCBC28B793F300857C0C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
-					9846CC8728B7923F00857C0C = {
+					9846CCC328B793F300857C0C = {
 						CreatedOnToolsVersion = 14.0;
 					};
-					9846CC9728B7924200857C0C = {
+					9846CCD328B793F500857C0C = {
 						CreatedOnToolsVersion = 14.0;
-						TestTargetID = 9846CC8728B7923F00857C0C;
+						TestTargetID = 9846CCC328B793F300857C0C;
 					};
-					9846CCA128B7924200857C0C = {
+					9846CCDD28B793F500857C0C = {
 						CreatedOnToolsVersion = 14.0;
-						TestTargetID = 9846CC8728B7923F00857C0C;
+						TestTargetID = 9846CCC328B793F300857C0C;
 					};
 				};
 			};
-			buildConfigurationList = 9846CC8328B7923F00857C0C /* Build configuration list for PBXProject "SwiftUIandFirabaseAndPushNotifications01" */;
+			buildConfigurationList = 9846CCBF28B793F300857C0C /* Build configuration list for PBXProject "SwiftUIandFirebaseAndPushNotifications01" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,36 +214,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 9846CC7F28B7923F00857C0C;
-			productRefGroup = 9846CC8928B7923F00857C0C /* Products */;
+			mainGroup = 9846CCBB28B793F300857C0C;
+			productRefGroup = 9846CCC528B793F300857C0C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9846CC8728B7923F00857C0C /* SwiftUIandFirabaseAndPushNotifications01 */,
-				9846CC9728B7924200857C0C /* SwiftUIandFirabaseAndPushNotifications01Tests */,
-				9846CCA128B7924200857C0C /* SwiftUIandFirabaseAndPushNotifications01UITests */,
+				9846CCC328B793F300857C0C /* SwiftUIandFirebaseAndPushNotifications01 */,
+				9846CCD328B793F500857C0C /* SwiftUIandFirebaseAndPushNotifications01Tests */,
+				9846CCDD28B793F500857C0C /* SwiftUIandFirebaseAndPushNotifications01UITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9846CC8628B7923F00857C0C /* Resources */ = {
+		9846CCC228B793F300857C0C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9846CC9328B7924100857C0C /* Preview Assets.xcassets in Resources */,
-				9846CC9028B7924100857C0C /* Assets.xcassets in Resources */,
+				9846CCCF28B793F500857C0C /* Preview Assets.xcassets in Resources */,
+				9846CCCC28B793F500857C0C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9846CC9628B7924200857C0C /* Resources */ = {
+		9846CCD228B793F500857C0C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9846CCA028B7924200857C0C /* Resources */ = {
+		9846CCDC28B793F500857C0C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,49 +253,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9846CC8428B7923F00857C0C /* Sources */ = {
+		9846CCC028B793F300857C0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9846CC8E28B7923F00857C0C /* ContentView.swift in Sources */,
-				9846CC8C28B7923F00857C0C /* SwiftUIandFirabaseAndPushNotifications01App.swift in Sources */,
+				9846CCCA28B793F300857C0C /* ContentView.swift in Sources */,
+				9846CCC828B793F300857C0C /* SwiftUIandFirebaseAndPushNotifications01App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9846CC9428B7924200857C0C /* Sources */ = {
+		9846CCD028B793F500857C0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9846CC9D28B7924200857C0C /* SwiftUIandFirabaseAndPushNotifications01Tests.swift in Sources */,
+				9846CCD928B793F500857C0C /* SwiftUIandFirebaseAndPushNotifications01Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9846CC9E28B7924200857C0C /* Sources */ = {
+		9846CCDA28B793F500857C0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9846CCA928B7924200857C0C /* SwiftUIandFirabaseAndPushNotifications01UITestsLaunchTests.swift in Sources */,
-				9846CCA728B7924200857C0C /* SwiftUIandFirabaseAndPushNotifications01UITests.swift in Sources */,
+				9846CCE528B793F500857C0C /* SwiftUIandFirebaseAndPushNotifications01UITestsLaunchTests.swift in Sources */,
+				9846CCE328B793F500857C0C /* SwiftUIandFirebaseAndPushNotifications01UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9846CC9A28B7924200857C0C /* PBXTargetDependency */ = {
+		9846CCD628B793F500857C0C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9846CC8728B7923F00857C0C /* SwiftUIandFirabaseAndPushNotifications01 */;
-			targetProxy = 9846CC9928B7924200857C0C /* PBXContainerItemProxy */;
+			target = 9846CCC328B793F300857C0C /* SwiftUIandFirebaseAndPushNotifications01 */;
+			targetProxy = 9846CCD528B793F500857C0C /* PBXContainerItemProxy */;
 		};
-		9846CCA428B7924200857C0C /* PBXTargetDependency */ = {
+		9846CCE028B793F500857C0C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9846CC8728B7923F00857C0C /* SwiftUIandFirabaseAndPushNotifications01 */;
-			targetProxy = 9846CCA328B7924200857C0C /* PBXContainerItemProxy */;
+			target = 9846CCC328B793F300857C0C /* SwiftUIandFirebaseAndPushNotifications01 */;
+			targetProxy = 9846CCDF28B793F500857C0C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		9846CCAA28B7924200857C0C /* Debug */ = {
+		9846CCE628B793F500857C0C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -355,7 +355,7 @@
 			};
 			name = Debug;
 		};
-		9846CCAB28B7924200857C0C /* Release */ = {
+		9846CCE728B793F500857C0C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -409,14 +409,14 @@
 			};
 			name = Release;
 		};
-		9846CCAD28B7924200857C0C /* Debug */ = {
+		9846CCE928B793F500857C0C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIandFirabaseAndPushNotifications01/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIandFirebaseAndPushNotifications01/Preview Content\"";
 				DEVELOPMENT_TEAM = JQVSXS5J2X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -430,7 +430,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.petroonishchuk.SwiftUIandFirabaseAndPushNotifications01;
+				PRODUCT_BUNDLE_IDENTIFIER = me.petroonishchuk.SwiftUIandFirebaseAndPushNotifications01;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -438,14 +438,14 @@
 			};
 			name = Debug;
 		};
-		9846CCAE28B7924200857C0C /* Release */ = {
+		9846CCEA28B793F500857C0C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIandFirabaseAndPushNotifications01/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIandFirebaseAndPushNotifications01/Preview Content\"";
 				DEVELOPMENT_TEAM = JQVSXS5J2X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -459,7 +459,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.petroonishchuk.SwiftUIandFirabaseAndPushNotifications01;
+				PRODUCT_BUNDLE_IDENTIFIER = me.petroonishchuk.SwiftUIandFirebaseAndPushNotifications01;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -467,7 +467,7 @@
 			};
 			name = Release;
 		};
-		9846CCB028B7924200857C0C /* Debug */ = {
+		9846CCEC28B793F500857C0C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -478,16 +478,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.petroonishchuk.SwiftUIandFirabaseAndPushNotifications01Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = me.petroonishchuk.SwiftUIandFirebaseAndPushNotifications01Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIandFirabaseAndPushNotifications01.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUIandFirabaseAndPushNotifications01";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIandFirebaseAndPushNotifications01.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUIandFirebaseAndPushNotifications01";
 			};
 			name = Debug;
 		};
-		9846CCB128B7924200857C0C /* Release */ = {
+		9846CCED28B793F500857C0C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -498,16 +498,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.petroonishchuk.SwiftUIandFirabaseAndPushNotifications01Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = me.petroonishchuk.SwiftUIandFirebaseAndPushNotifications01Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIandFirabaseAndPushNotifications01.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUIandFirabaseAndPushNotifications01";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIandFirebaseAndPushNotifications01.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUIandFirebaseAndPushNotifications01";
 			};
 			name = Release;
 		};
-		9846CCB328B7924200857C0C /* Debug */ = {
+		9846CCEF28B793F500857C0C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -516,16 +516,16 @@
 				DEVELOPMENT_TEAM = JQVSXS5J2X;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.petroonishchuk.SwiftUIandFirabaseAndPushNotifications01UITests;
+				PRODUCT_BUNDLE_IDENTIFIER = me.petroonishchuk.SwiftUIandFirebaseAndPushNotifications01UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SwiftUIandFirabaseAndPushNotifications01;
+				TEST_TARGET_NAME = SwiftUIandFirebaseAndPushNotifications01;
 			};
 			name = Debug;
 		};
-		9846CCB428B7924200857C0C /* Release */ = {
+		9846CCF028B793F500857C0C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -534,55 +534,55 @@
 				DEVELOPMENT_TEAM = JQVSXS5J2X;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.petroonishchuk.SwiftUIandFirabaseAndPushNotifications01UITests;
+				PRODUCT_BUNDLE_IDENTIFIER = me.petroonishchuk.SwiftUIandFirebaseAndPushNotifications01UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SwiftUIandFirabaseAndPushNotifications01;
+				TEST_TARGET_NAME = SwiftUIandFirebaseAndPushNotifications01;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9846CC8328B7923F00857C0C /* Build configuration list for PBXProject "SwiftUIandFirabaseAndPushNotifications01" */ = {
+		9846CCBF28B793F300857C0C /* Build configuration list for PBXProject "SwiftUIandFirebaseAndPushNotifications01" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9846CCAA28B7924200857C0C /* Debug */,
-				9846CCAB28B7924200857C0C /* Release */,
+				9846CCE628B793F500857C0C /* Debug */,
+				9846CCE728B793F500857C0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9846CCAC28B7924200857C0C /* Build configuration list for PBXNativeTarget "SwiftUIandFirabaseAndPushNotifications01" */ = {
+		9846CCE828B793F500857C0C /* Build configuration list for PBXNativeTarget "SwiftUIandFirebaseAndPushNotifications01" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9846CCAD28B7924200857C0C /* Debug */,
-				9846CCAE28B7924200857C0C /* Release */,
+				9846CCE928B793F500857C0C /* Debug */,
+				9846CCEA28B793F500857C0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9846CCAF28B7924200857C0C /* Build configuration list for PBXNativeTarget "SwiftUIandFirabaseAndPushNotifications01Tests" */ = {
+		9846CCEB28B793F500857C0C /* Build configuration list for PBXNativeTarget "SwiftUIandFirebaseAndPushNotifications01Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9846CCB028B7924200857C0C /* Debug */,
-				9846CCB128B7924200857C0C /* Release */,
+				9846CCEC28B793F500857C0C /* Debug */,
+				9846CCED28B793F500857C0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9846CCB228B7924200857C0C /* Build configuration list for PBXNativeTarget "SwiftUIandFirabaseAndPushNotifications01UITests" */ = {
+		9846CCEE28B793F500857C0C /* Build configuration list for PBXNativeTarget "SwiftUIandFirebaseAndPushNotifications01UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9846CCB328B7924200857C0C /* Debug */,
-				9846CCB428B7924200857C0C /* Release */,
+				9846CCEF28B793F500857C0C /* Debug */,
+				9846CCF028B793F500857C0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9846CC8028B7923F00857C0C /* Project object */;
+	rootObject = 9846CCBC28B793F300857C0C /* Project object */;
 }

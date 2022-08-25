@@ -1,13 +1,13 @@
 //
-//  SwiftUIandFirabaseAndPushNotifications01UITests.swift
-//  SwiftUIandFirabaseAndPushNotifications01UITests
+//  SwiftUIandFirebaseAndPushNotifications01UITests.swift
+//  SwiftUIandFirebaseAndPushNotifications01UITests
 //
 //  Created by Petro Onishchuk on 8/25/22.
 //
 
 import XCTest
 
-final class SwiftUIandFirabaseAndPushNotifications01UITests: XCTestCase {
+final class SwiftUIandFirebaseAndPushNotifications01UITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
