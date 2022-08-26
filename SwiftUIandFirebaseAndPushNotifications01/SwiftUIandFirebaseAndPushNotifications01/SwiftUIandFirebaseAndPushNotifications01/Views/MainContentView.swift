@@ -15,6 +15,7 @@ struct MainContentView: View {
         NavigationStack {
             List {
                 Section {
+                    // V.1 ForEach with Enumerated
                     ForEach(myAppVM.allMessages.indices, id: \.self) { index in
                         HStack {
                             Text("\(index + 1)")
@@ -27,18 +28,22 @@ struct MainContentView: View {
                             }
                         }
                     }
-                    ForEach(Array(zip(myAppVM.allMessages.indices, myAppVM.allMessages)), id: \.0) { index, message in
-                        HStack {
-                            Text("\(index + 1)")
-                            VStack(alignment: .leading) {
-                                Text("Title: \(message.title)")
-                                Text("Body: \(message.body)")
-                                    .customFontSize(with: 10)
-                                Text("Date: \(myAppVM.convertData(date: message.messagesDate))")
-                                    .customFontSize(with: 10)
-                            }
-                        }
-                    }
+                    // V.2 ForEach With enumerated
+//                    ForEach(Array(zip(myAppVM.allMessages.indices, myAppVM.allMessages)), id: \.0) { index, message in
+//                        HStack {
+//                            Text("\(index + 1)")
+//                            VStack(alignment: .leading) {
+//                                Text("Title: \(message.title)")
+//                                Text("Body: \(message.body)")
+//                                    .customFontSize(with: 10)
+//                                Text("Date: \(myAppVM.convertData(date: message.messagesDate))")
+//                                    .customFontSize(with: 10)
+//                            }
+//                        }
+//                    }
+                    
+                    
+                // V.3 For Each without enumerated
 //                    ForEach(myAppVM.allMessages, id: \.id) { message in
 //                        VStack(alignment: .leading) {
 //                            Text("Title: \(message.title)")
