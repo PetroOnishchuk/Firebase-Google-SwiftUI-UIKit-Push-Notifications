@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         //MARK: Set the messaging delegate
         Messaging.messaging().delegate = self
         // MARK: Work with UNUserNotificationCenter
-       
+        
         //MARK: Request notification
         UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge]) { granted, error in
             guard granted else {

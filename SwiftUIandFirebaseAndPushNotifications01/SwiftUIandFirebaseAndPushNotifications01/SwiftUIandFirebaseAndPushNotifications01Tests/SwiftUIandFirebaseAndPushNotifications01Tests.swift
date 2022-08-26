@@ -6,6 +6,7 @@
 //
 
 import XCTest
+import Firebase
 @testable import SwiftUIandFirebaseAndPushNotifications01
 
 final class SwiftUIandFirebaseAndPushNotifications01Tests: XCTestCase {

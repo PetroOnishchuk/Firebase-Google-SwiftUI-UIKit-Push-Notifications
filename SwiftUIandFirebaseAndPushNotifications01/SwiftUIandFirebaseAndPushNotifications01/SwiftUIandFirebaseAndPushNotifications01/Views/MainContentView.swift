@@ -19,19 +19,21 @@ struct MainContentView: View {
                         VStack(alignment: .leading) {
                             Text("Title: \(message.title)")
                             Text("Body: \(message.body)")
-                                .font(Font.system(size: 14))
+                                .customFontSize(with: 10)
                             Text("Date: \(myAppVM.convertData(date: message.messagesDate))")
+                                .customFontSize(with: 10)
                         }
                     }
                 } header: {
                     Text("Message List Section")
                 }
             }
+            .navigationTitle("SwiftUI & Firebase")
+            .navigationBarTitleDisplayMode(.inline)
             .onAppear {
                 myAppVM.setupNotifications()
             }
         }
-        .padding()
     }
 }
 

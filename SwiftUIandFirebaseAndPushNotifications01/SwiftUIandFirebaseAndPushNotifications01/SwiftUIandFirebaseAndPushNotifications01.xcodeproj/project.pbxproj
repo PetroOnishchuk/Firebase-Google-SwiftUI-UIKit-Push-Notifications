@@ -20,6 +20,7 @@
 		9846CCFF28B7995800857C0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846CCFE28B7995800857C0C /* AppDelegate.swift */; };
 		9846CD0128B7CA0B00857C0C /* MyAppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846CD0028B7CA0B00857C0C /* MyAppViewModel.swift */; };
 		9846CD0328B7D8EA00857C0C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9846CD0228B7D8EA00857C0C /* GoogleService-Info.plist */; };
+		98CA861428B8F8D6006BCFD7 /* FontViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CA861328B8F8D5006BCFD7 /* FontViewModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		9846CCFE28B7995800857C0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9846CD0028B7CA0B00857C0C /* MyAppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppViewModel.swift; sourceTree = "<group>"; };
 		9846CD0228B7D8EA00857C0C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		98CA861328B8F8D5006BCFD7 /* FontViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontViewModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				9846CCC928B793F300857C0C /* MainContentView.swift */,
+				98CA861328B8F8D5006BCFD7 /* FontViewModifier.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 			files = (
 				9846CCFF28B7995800857C0C /* AppDelegate.swift in Sources */,
 				9846CD0128B7CA0B00857C0C /* MyAppViewModel.swift in Sources */,
+				98CA861428B8F8D6006BCFD7 /* FontViewModifier.swift in Sources */,
 				9846CCCA28B793F300857C0C /* MainContentView.swift in Sources */,
 				9846CCF628B794C300857C0C /* AppModel.swift in Sources */,
 				9846CCC828B793F300857C0C /* SwiftUIandFirebaseAndPushNotifications01App.swift in Sources */,
