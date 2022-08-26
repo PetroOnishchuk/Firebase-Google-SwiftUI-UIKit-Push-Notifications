@@ -26,6 +26,9 @@ struct MainContentView: View {
                                 Text("Date: \(myAppVM.convertData(date: myAppVM.allMessages[index].messagesDate))")
                                     .customFontSize(with: 10)
                             }
+                            Spacer()
+                            Image(systemName: "envelope.fill")
+                                .foregroundColor(.green)
                         }
                     }
                     // V.2 ForEach With enumerated
