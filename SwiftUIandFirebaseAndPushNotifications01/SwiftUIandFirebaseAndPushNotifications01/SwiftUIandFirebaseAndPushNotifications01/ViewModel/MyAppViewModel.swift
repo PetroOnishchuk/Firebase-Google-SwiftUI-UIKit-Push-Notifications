@@ -23,6 +23,12 @@ class MyAppViewModel: ObservableObject {
         return itemFormatter.string(from: date)
     }
     
+    //MARK: Clean allMessage List
+    @MainActor
+    func cleanAllMessageList() {
+        allMessages = []
+    }
+    
     //MARK: Setup Notifications
     func setupNotifications() {
         //MARK: add Observer to Firebase Notifications

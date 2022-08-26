@@ -15,17 +15,52 @@ struct MainContentView: View {
         NavigationStack {
             List {
                 Section {
-                    ForEach(myAppVM.allMessages, id: \.id) { message in
-                        VStack(alignment: .leading) {
-                            Text("Title: \(message.title)")
-                            Text("Body: \(message.body)")
-                                .customFontSize(with: 10)
-                            Text("Date: \(myAppVM.convertData(date: message.messagesDate))")
-                                .customFontSize(with: 10)
+                    ForEach(myAppVM.allMessages.indices, id: \.self) { index in
+                        HStack {
+                            Text("\(index + 1)")
+                            VStack(alignment: .leading) {
+                                Text("Title: \(myAppVM.allMessages[index].title)")
+                                Text("Body: \(myAppVM.allMessages[index].body)")
+                                    .customFontSize(with: 10)
+                                Text("Date: \(myAppVM.convertData(date: myAppVM.allMessages[index].messagesDate))")
+                                    .customFontSize(with: 10)
+                            }
                         }
                     }
+                    ForEach(Array(zip(myAppVM.allMessages.indices, myAppVM.allMessages)), id: \.0) { index, message in
+                        HStack {
+                            Text("\(index + 1)")
+                            VStack(alignment: .leading) {
+                                Text("Title: \(message.title)")
+                                Text("Body: \(message.body)")
+                                    .customFontSize(with: 10)
+                                Text("Date: \(myAppVM.convertData(date: message.messagesDate))")
+                                    .customFontSize(with: 10)
+                            }
+                        }
+                    }
+//                    ForEach(myAppVM.allMessages, id: \.id) { message in
+//                        VStack(alignment: .leading) {
+//                            Text("Title: \(message.title)")
+//                            Text("Body: \(message.body)")
+//                                .customFontSize(with: 10)
+//                            Text("Date: \(myAppVM.convertData(date: message.messagesDate))")
+//                                .customFontSize(with: 10)
+//                        }
+//                    }
                 } header: {
                     Text("Message List Section")
+                }
+            }
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button {
+                        myAppVM.cleanAllMessageList()
+                    } label: {
+                        Image(systemName: "trash")
+                            .foregroundColor(.red)
+                    }
+
                 }
             }
             .navigationTitle("SwiftUI & Firebase")
