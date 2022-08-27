@@ -45,7 +45,7 @@ extension MainViewController:UITableViewDelegate, UITableViewDataSource {
         content.text = "#: \(indexPath.row + 1)\nTitle: \(message.title)"
         let imagesTitle = UIImage.SymbolConfiguration(textStyle: .title3)
         content.image = UIImage(systemName: "envelope.fill", withConfiguration: imagesTitle)
-        content.secondaryText = "Body: \(message)\nDate: \(convertDate(date: message.messagesDate))"
+        content.secondaryText = "Body: \(message.body)\nDate: \(convertDate(date: message.messagesDate))"
         content.imageProperties.tintColor = .green
         cell.contentConfiguration = content
         

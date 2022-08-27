@@ -15,8 +15,10 @@ extension MainViewController {
         // Add Observer to Firebase Notification
         let firebaseNotName = Notification.Name(NotificationNameValue.firebasePushNotification.rawValue)
         
-        NotificationCenter.default.addObserver(forName: firebaseNotName, object: nil, queue: .main) { notification in
-            //
+        NotificationCenter.default.addObserver(forName: firebaseNotName, object: nil, queue: .main) { [weak self] notification in
+            
+            
+            self?.convertNotificationsMessage(notificationObject: notification.object)
         }
     }
     
@@ -43,6 +45,7 @@ extension MainViewController {
         
         DispatchQueue.main.async {
             [weak self] in self?.allMessages.append(newMessage)
+            self?.messagesTableView.reloadData()
         }
     }
 }

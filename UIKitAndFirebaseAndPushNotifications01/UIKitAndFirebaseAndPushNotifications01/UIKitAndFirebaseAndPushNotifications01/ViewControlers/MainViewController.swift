@@ -19,7 +19,8 @@ class MainViewController: UIViewController {
         title = "UIKit & Firebase"
         
         setupMessagesTableView()
-        
+        setupNotification()
+        addBarButtonItem()
     }
     
     // Work with Date
