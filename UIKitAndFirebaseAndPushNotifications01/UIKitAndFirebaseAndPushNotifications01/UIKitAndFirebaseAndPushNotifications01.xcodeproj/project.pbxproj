@@ -16,6 +16,7 @@
 		98CA9D2428BA258B002E8D43 /* UIKitAndFirebaseAndPushNotifications01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CA9D2328BA258B002E8D43 /* UIKitAndFirebaseAndPushNotifications01Tests.swift */; };
 		98CA9D2E28BA258B002E8D43 /* UIKitAndFirebaseAndPushNotifications01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CA9D2D28BA258B002E8D43 /* UIKitAndFirebaseAndPushNotifications01UITests.swift */; };
 		98CA9D3028BA258B002E8D43 /* UIKitAndFirebaseAndPushNotifications01UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CA9D2F28BA258B002E8D43 /* UIKitAndFirebaseAndPushNotifications01UITestsLaunchTests.swift */; };
+		98CA9D4028BA2806002E8D43 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CA9D3F28BA2806002E8D43 /* AppModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		98CA9D2928BA258B002E8D43 /* UIKitAndFirebaseAndPushNotifications01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKitAndFirebaseAndPushNotifications01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98CA9D2D28BA258B002E8D43 /* UIKitAndFirebaseAndPushNotifications01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitAndFirebaseAndPushNotifications01UITests.swift; sourceTree = "<group>"; };
 		98CA9D2F28BA258B002E8D43 /* UIKitAndFirebaseAndPushNotifications01UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitAndFirebaseAndPushNotifications01UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		98CA9D3F28BA2806002E8D43 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 		98CA9D3D28BA2617002E8D43 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				98CA9D3F28BA2806002E8D43 /* AppModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				98CA9D1128BA2588002E8D43 /* MainViewController.swift in Sources */,
 				98CA9D0D28BA2588002E8D43 /* AppDelegate.swift in Sources */,
 				98CA9D0F28BA2588002E8D43 /* SceneDelegate.swift in Sources */,
+				98CA9D4028BA2806002E8D43 /* AppModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
