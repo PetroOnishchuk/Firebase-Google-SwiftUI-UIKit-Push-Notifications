@@ -20,3 +20,7 @@ enum NotificationNameValue: String {
     case firebasePushNotification
     case FCMTTokenNotifications
 }
+
+enum CustomCellReuseIdentifier: String {
+    case messagesCell
+}

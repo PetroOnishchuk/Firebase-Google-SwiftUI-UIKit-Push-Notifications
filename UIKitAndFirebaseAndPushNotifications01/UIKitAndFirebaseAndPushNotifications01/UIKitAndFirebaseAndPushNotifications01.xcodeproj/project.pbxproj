@@ -17,6 +17,7 @@
 		98CA9D2E28BA258B002E8D43 /* UIKitAndFirebaseAndPushNotifications01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CA9D2D28BA258B002E8D43 /* UIKitAndFirebaseAndPushNotifications01UITests.swift */; };
 		98CA9D3028BA258B002E8D43 /* UIKitAndFirebaseAndPushNotifications01UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CA9D2F28BA258B002E8D43 /* UIKitAndFirebaseAndPushNotifications01UITestsLaunchTests.swift */; };
 		98CA9D4028BA2806002E8D43 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CA9D3F28BA2806002E8D43 /* AppModel.swift */; };
+		98CA9D4328BA29C1002E8D43 /* SetupTableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CA9D4228BA29C1002E8D43 /* SetupTableViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		98CA9D2D28BA258B002E8D43 /* UIKitAndFirebaseAndPushNotifications01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitAndFirebaseAndPushNotifications01UITests.swift; sourceTree = "<group>"; };
 		98CA9D2F28BA258B002E8D43 /* UIKitAndFirebaseAndPushNotifications01UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitAndFirebaseAndPushNotifications01UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		98CA9D3F28BA2806002E8D43 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		98CA9D4228BA29C1002E8D43 /* SetupTableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupTableViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				98CA9D1028BA2588002E8D43 /* MainViewController.swift */,
+				98CA9D4228BA29C1002E8D43 /* SetupTableViewExtension.swift */,
 			);
 			path = ViewControlers;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98CA9D1128BA2588002E8D43 /* MainViewController.swift in Sources */,
+				98CA9D4328BA29C1002E8D43 /* SetupTableViewExtension.swift in Sources */,
 				98CA9D0D28BA2588002E8D43 /* AppDelegate.swift in Sources */,
 				98CA9D0F28BA2588002E8D43 /* SceneDelegate.swift in Sources */,
 				98CA9D4028BA2806002E8D43 /* AppModel.swift in Sources */,

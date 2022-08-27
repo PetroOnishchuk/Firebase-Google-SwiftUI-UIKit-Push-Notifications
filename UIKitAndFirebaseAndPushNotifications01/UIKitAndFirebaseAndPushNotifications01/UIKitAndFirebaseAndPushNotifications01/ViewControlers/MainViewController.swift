@@ -10,9 +10,29 @@ import UIKit
 
 class MainViewController: UIViewController {
 
+    var messagesTableView: UITableView!
+    var allMessages: [Message] = []
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        title = "UIKit & Firebase"
+        
+        setupMessagesTableView()
+        
+    }
+    
+    // Work with Date
+    let itemFormatter: DateFormatter = {
+        let formatter = DateFormatter()
+        formatter.dateStyle = .short
+        formatter.timeStyle = .medium
+        return formatter
+    }()
+    
+    
+    func convertDate(date: Date) -> String {
+        return itemFormatter.string(from: date)
     }
 
 
