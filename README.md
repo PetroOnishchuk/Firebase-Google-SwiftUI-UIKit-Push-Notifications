@@ -10,4 +10,7 @@
 [GitHub](https://github.com/PetroOnishchuk/Firebase-Google-SwiftUI-UIKit-Push-Notifications/tree/master/SwiftUIandFirebaseAndPushNotifications01)  
 
 ## 2. [UIKit & Firebase & Cloud Messaging & Push Notifications](https://github.com/PetroOnishchuk/Firebase-Google-SwiftUI-UIKit-Push-Notifications/tree/master/UIKitAndFirebaseAndPushNotifications01/UIKitAndFirebaseAndPushNotifications01)  
-[GitHub](https://github.com/PetroOnishchuk/Firebase-Google-SwiftUI-UIKit-Push-Notifications/tree/master/UIKitAndFirebaseAndPushNotifications01/UIKitAndFirebaseAndPushNotifications01) 
+[GitHub](https://github.com/PetroOnishchuk/Firebase-Google-SwiftUI-UIKit-Push-Notifications/tree/master/UIKitAndFirebaseAndPushNotifications01/UIKitAndFirebaseAndPushNotifications01)  
+
+
+![visitors](https://visitor-badge.glitch.me/badge?page_id=petroonishchuk.petroonishchuk)
